@@ -20,7 +20,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>123456789陳小明</h1>
+      <h1>5b1g0032 莊小煒</h1>
       <h2>我的第一個元件：Slider</h2>
       <div>
         <p>
