@@ -1,0 +1,76 @@
+/* MyCalculator 整體外觀 */
+.my-calculator-container {
+  max-width: 340px;
+  margin: 40px auto;
+  border: 2px solid #aaa;
+  border-radius: 16px;
+  padding: 24px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px #0001;
+  background-color: antiquewhite;
+}
+
+/* MyDisplay 外觀 */
+.my-calculator-display {
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  min-height: 48px;
+  margin-bottom: 12px;
+  text-align: right;
+  font-size: 1.5em;
+  word-break: break-all;
+}
+.my-calculator-display .expression {
+  opacity: 0.7;
+  font-size: 1em;
+}
+.my-calculator-display .result {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* MyKeypad 外觀 */
+.my-calculator-keypad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-calculator-keypad-row {
+  display: flex;
+}
+
+/* MyButton 外觀 */
+.my-calculator-btn {
+  width: 70px;
+  height: 70px;
+  margin: 4px;
+  font-size: 1.2em;
+  border-radius: 35px;
+  border: 1px solid #888;
+  font-weight: bold;
+  box-shadow: 0 1px 4px #0001;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.my-calculator-btn.number {
+  background: #f0f4ff;
+  color: #222;
+}
+.my-calculator-btn.operator {
+  background: #ffe0b2;
+  color: #b26a00;
+}
+.my-calculator-btn.control {
+  background: #e1f5fe;
+  color: #0277bd;
+}
+
+/* MyErrorMessage 外觀 */
+.my-calculator-error {
+  color: #c00;
+  margin-top: 8px;
+  min-height: 24px;
+  text-align: center;
+}
